@@ -9,4 +9,5 @@ def filterWords(inputText):
     filterresult.join([x for x in inputText if x in string.ascii_letters + '\'- '])
     return filterresult
 
-print(filterWords(readfile("README.md")))
+print(filterWords(readfile("README.md"))) 
+print("bla")
